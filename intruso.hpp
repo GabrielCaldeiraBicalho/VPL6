@@ -3,6 +3,7 @@
 #include <vector>
 class Intruso{
     private:
+    std::map<char,int> p[6];
     std::map<std::string,std::string> senhas;
     std::vector<std::string> codigos;
     public:
