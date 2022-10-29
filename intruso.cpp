@@ -26,7 +26,7 @@ std::string Intruso::crack_senha(){
              p[s].insert({x[0],p[s][x[0]]+=1});p[s].insert({x[1],p[s][x[1]]+=1});
          }
          else if(senhas[x][s]=='B'){
-             p[s].insert({x[2],p[s][x[2]]+=2});p[s].insert({x[3],p[s][x[3]]+=1});
+             p[s].insert({x[2],p[s][x[2]]+=1});p[s].insert({x[3],p[s][x[3]]+=1});
          }
          else if(senhas[x][s]=='C'){
              p[s].insert({x[4],p[s][x[4]]+=1});p[s].insert({x[5],p[s][x[5]]+=1});
